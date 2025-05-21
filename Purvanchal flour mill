@@ -1,0 +1,226 @@
+#web
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Purvanchal Flour Mill</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    nav {
+      background-color: #3e8e41;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .product {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      margin-top: 20px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    .product img {
+      width: 120px;
+      height: auto;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #4CAF50;
+      color: white;
+    }
+    .contact {
+      background-color: #eefbee;
+      border-left: 5px solid #4CAF50;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-family: inherit;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    iframe {
+      width: 100%;
+      border: none;
+      margin-top: 20px;
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Purvanchal Flour Mill</h1>
+  <p>Fresh & Pure – Straight from the Heart of Purvanchal</p>
+</header>
+
+<nav>
+  <a href="#products">Products</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="products">
+  <h2>Our Products</h2>
+
+  <div class="product">
+    <img src="atta-label.jpg" alt="Chakki Fresh Atta" />
+    <div>
+      <h3>Chakki Fresh Atta (Wheat Flour)</h3>
+      <p>Stone-ground for authentic taste and nutrition. 26 KG pack. FSSAI certified.</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250x250.png?text=Besan" alt="Besan">
+    <div>
+      <h3>Besan (Gram Flour)</h3>
+      <p>Finely milled from premium chana dal, ideal for pakoras, sweets and batter mixes.</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250x250.png?text=Choker" alt="Choker">
+    <div>
+      <h3>Choker (Bran)</h3>
+      <p>High-fiber wheat bran for cattle feed and digestive health.</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250x250.png?text=Mustard+Oil" alt="Mustard Oil">
+    <div>
+      <h3>Mustard Oil</h3>
+      <p>Cold-pressed mustard oil with a strong aroma and purity—perfect for traditional cooking.</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250x250.png?text=Neem+Oil" alt="Neem Oil">
+    <div>
+      <h3>Neem Oil</h3>
+      <p>100% pure neem oil for agricultural and personal care uses.</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250x250.png?text=Til+Oil" alt="Til Oil">
+    <div>
+      <h3>Til Oil (Sesame Oil)</h3>
+      <p>Cold-pressed sesame oil rich in antioxidants and perfect for puja or cooking.</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250x250.png?text=Chawal+Atta" alt="Rice Flour">
+    <div>
+      <h3>Chawal Atta (Rice Flour)</h3>
+      <p>Gluten-free flour ideal for dosa, roti, and Indian sweets.</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250x250.png?text=Basmati+Rice" alt="Basmati Rice">
+    <div>
+      <h3>Basmati Rice</h3>
+      <p>Long-grain aromatic basmati rice for biryani and daily meals.</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250x250.png?text=Jav" alt="Barley">
+    <div>
+      <h3>Jav (Barley)</h3>
+      <p>Nutrient-rich barley for traditional recipes and health-conscious diets.</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250x250.png?text=Pasuva+Ahara" alt="Animal Feed">
+    <div>
+      <h3>Pasuva Ahara (Animal Feed)</h3>
+      <p>Balanced and nutritious cattle feed made from bran and pulses.</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250x250.png?text=Matar+Chuni" alt="Matar Chuni">
+    <div>
+      <h3>Matar (Pea) Chuni</h3>
+      <p>By-product from pulse milling, high in protein—used as cattle or poultry feed.</p>
+    </div>
+  
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Purvanchal Flour Mill is committed to delivering high-quality, chemical-free flour made from select grains sourced locally. Our traditional milling techniques ensure maximum nutrition and taste in every pack.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact">
+    <p><strong>Address:</strong> Village XYZ, District ABC, Uttar Pradesh</p>
+    <p><strong>Phone:</strong> +91-9821869383</p>
+    <p><strong>Email:</strong> info@purvanchalflourmill.in</p>
+
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." allow
